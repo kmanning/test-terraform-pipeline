@@ -1,4 +1,4 @@
-@Library(['terraform-pipeline@issue_196']) _
+@Library(['terraform-pipeline@v5.5-dev']) _
 
 Jenkinsfile.init(this)
 
