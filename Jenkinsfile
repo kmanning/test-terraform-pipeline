@@ -1,6 +1,7 @@
 @Library(['terraform-pipeline@issue_196']) _
 
 Jenkinsfile.init(this)
+Jenkinsfile.defaultNodeName = 'dev'
 
 def validate = new TerraformValidateStage()
 def deployQa = new TerraformEnvironmentStage('qa')
