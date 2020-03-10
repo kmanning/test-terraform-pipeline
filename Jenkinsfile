@@ -1,4 +1,4 @@
-@Library(['terraform-pipeline-keith@v5.5-dev']) _
+@Library(['terraform-pipeline-keith@issue_151']) _
 
 AnsiColorPlugin.init()
 AwssumePlugin.init()
