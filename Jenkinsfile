@@ -1,8 +1,8 @@
 @Library(['terraform-pipeline-keith@issue_151']) _
 
-//AwssumePlugin.init()
-//CrqPlugin.init()
-//AnsiColorPlugin.init()
+AwssumePlugin.init()
+CrqPlugin.init()
+AnsiColorPlugin.init()
 
 Jenkinsfile.init(this)
 Jenkinsfile.defaultNodeName = 'master'
