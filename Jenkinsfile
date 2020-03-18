@@ -1,4 +1,4 @@
-@Library(['terraform-pipeline-keith@issue_151']) _
+@Library(['terraform-pipeline@v5.5-dev']) _
 
 AwssumePlugin.init()
 CrqPlugin.init()
